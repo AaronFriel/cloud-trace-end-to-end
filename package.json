@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -18,7 +18,7 @@
     "prepare": "tsdx build"
   },
   "peerDependencies": {
-    "@google-cloud/trace-agent": "^4.2.5"
+    "@google-cloud/trace-agent": "^5.1.1"
   },
   "husky": {
     "hooks": {
@@ -35,11 +35,11 @@
   "author": "Aaron Friel",
   "module": "dist/cloud-trace-end-to-end.esm.js",
   "devDependencies": {
+    "@google-cloud/trace-agent": "^5.1.1",
     "@types/jest": "^25.2.1",
     "husky": "^4.2.5",
     "tsdx": "^0.13.1",
     "tslib": "^1.11.1",
-    "typescript": "^3.8.3",
-    "@google-cloud/trace-agent": "^4.2.5"
+    "typescript": "^3.8.3"
   }
 }
